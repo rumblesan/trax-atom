@@ -1,0 +1,25 @@
+{
+  "context-menu": {
+    "atom-text-editor": []
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "trax",
+          "submenu": [
+            {
+              "label": "Start Trax",
+              "command": "trax:start"
+            },
+            {
+              "label": "Evaluate Code",
+              "command": "trax:evaluate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

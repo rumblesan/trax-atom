@@ -1,0 +1,22 @@
+{
+  "name": "trax",
+  "main": "./lib/trax",
+  "version": "0.0.1",
+  "description": "An atom plugin for Trax",
+  "keywords": [],
+  "repository": "https://github.com/rumblesan/trax-atom",
+  "license": "BSD-3-Clause",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "osc-min": "^1.1.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.15.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
